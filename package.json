@@ -1,6 +1,6 @@
 {
   "name": "@guploader/invariant",
-  "version": "2.2.5",
+  "version": "2.2.6",
   "description": "invariant",
   "keywords": [
     "test",
@@ -12,7 +12,8 @@
     "browser.js",
     "invariant.js",
     "invariant-es.js",
-    "invariant.js.flow"
+    "invariant.js.flow",
+    "invariant.d.ts"
   ],
   "repository": "https://github.com/guploader/invariant",
   "publishConfig": {
@@ -33,6 +34,7 @@
   "main": "invariant.js",
   "browser": "browser.js",
   "module": "invariant-es.js",
+  "types": "invariant.d.ts",
   "browserify": {
     "transform": [
       "loose-envify"
