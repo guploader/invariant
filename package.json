@@ -1,5 +1,5 @@
 {
-  "name": "invariant",
+  "name": "@guploader/invariant",
   "version": "2.2.5",
   "description": "invariant",
   "keywords": [
@@ -11,9 +11,10 @@
   "files": [
     "browser.js",
     "invariant.js",
+    "invariant-es.js",
     "invariant.js.flow"
   ],
-  "repository": "https://github.com/zertosh/invariant",
+  "repository": "https://github.com/guploader/invariant",
   "scripts": {
     "test": "NODE_ENV=production tap test/*.js && NODE_ENV=development tap test/*.js"
   },
